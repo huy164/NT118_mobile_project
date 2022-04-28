@@ -16,7 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class Login extends AppCompatActivity implements View.OnClickListener {
     private TextView register;
     private EditText editTextEmail, editTextPassword;
     private Button signIn;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         register = (TextView) findViewById(R.id.register);
         register.setOnClickListener(this);
 
@@ -66,10 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    Toast.makeText(MainActivity.this,"login  successfully",Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(MainActivity.this,Home.class));
+                    Toast.makeText(Login.this,"login  successfully",Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(Login.this,Home.class));
                 }else{
-                    Toast.makeText(MainActivity.this,"login  failed",Toast.LENGTH_LONG).show();
+                    Toast.makeText(Login.this,"login  failed",Toast.LENGTH_LONG).show();
                 }
             }
         });
