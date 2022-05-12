@@ -8,7 +8,10 @@
     <item android:title="Profile"
         android:id="@+id/profileFragnent"
         android:icon="@drawable/ic_baseline_person_24"/>
-    <item android:title="Setting"
-        android:id="@+id/settingFragment"
-        android:icon="@drawable/ic_baseline_settings_24"/>
+    <item android:title="Exercises"
+        android:id="@+id/exercisesFragment"
+        android:icon="@drawable/ic_baseline_sports_handball_24"/>
+    <item android:title="Meals"
+        android:id="@+id/mealsFragment"
+        android:icon="@drawable/ic_baseline_set_meal_24"/>
 </menu>

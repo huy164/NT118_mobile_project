@@ -16,8 +16,14 @@
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/settingFragment"
-        android:name="com.example.workout_app.Views.fragnents.SettingFragment"
-        android:label="fragment_setting"
-        tools:layout="@layout/fragment_setting" />
+        android:id="@+id/exercisesFragment"
+        android:name="com.example.workout_app.Views.fragnents.ExercisesFragment"
+        android:label="fragment_exercise"
+        tools:layout="@layout/fragment_exercises" />
+    <fragment
+        android:id="@+id/mealsFragment"
+        android:name="com.example.workout_app.Views.fragnents.MealsFragment"
+        android:label="fragment_meals"
+        tools:layout="@layout/fragment_meals" />
+
 </navigation>
