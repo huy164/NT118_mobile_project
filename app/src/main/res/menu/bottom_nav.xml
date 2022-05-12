@@ -6,7 +6,7 @@
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_baseline_home_24"/>
     <item android:title="Profile"
-        android:id="@+id/profileFragent"
+        android:id="@+id/profileFragnent"
         android:icon="@drawable/ic_baseline_person_24"/>
     <item android:title="Setting"
         android:id="@+id/settingFragment"

@@ -11,13 +11,13 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/profileFragment"
+        android:id="@+id/profileFragnent"
         android:name="com.example.workout_app.Views.fragnents.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.example.workout_app.SettingFragment"
+        android:name="com.example.workout_app.Views.fragnents.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
 </navigation>
