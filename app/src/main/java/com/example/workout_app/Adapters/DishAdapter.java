@@ -70,7 +70,7 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.ViewHolder> {
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.cardview_food, parent, false);
+                .inflate(R.layout.dish_item, parent, false);
         return new ViewHolder(view);
     }
 

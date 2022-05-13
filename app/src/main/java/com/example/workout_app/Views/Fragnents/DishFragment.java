@@ -1,5 +1,7 @@
 package com.example.workout_app.Views.Fragnents;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -96,24 +98,15 @@ public class DishFragment extends Fragment implements RecyclerViewClickInterface
                 });
     }
 
+
     @Override
     public void onItemClick(int position) {
-
+        Intent openLinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(list.get(position).getSourceUrl()));
+        startActivity(openLinkIntent);
     }
 
     @Override
     public void onLongItemClick(int position) {
-
-    }
-
-//    @Override
-//    public void onItemClick(int position) {
-//        Intent openLinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(list.get(position).getSource()));
-//        startActivity(openLinkIntent);
-//    }
-//
-//    @Override
-//    public void onLongItemClick(int position) {
 //        String FoodID = list.get(position).getId();
 //        String UserID = FirebaseAuth.getInstance().getUid();
 //
@@ -121,5 +114,5 @@ public class DishFragment extends Fragment implements RecyclerViewClickInterface
 //        docRef.update("favoritefood", FieldValue.arrayUnion(FoodID));
 //
 //        Toast.makeText(getContext(), "Đã thêm vào danh sách yêu thích", Toast.LENGTH_SHORT).show();
-//    }
+    }
 }
