@@ -11,7 +11,7 @@
     <item android:title="Exercises"
         android:id="@+id/exercisesFragment"
         android:icon="@drawable/ic_baseline_sports_handball_24"/>
-    <item android:title="Meals"
-        android:id="@+id/mealsFragment"
+    <item android:title="Dish"
+        android:id="@+id/dishFragment"
         android:icon="@drawable/ic_baseline_set_meal_24"/>
 </menu>

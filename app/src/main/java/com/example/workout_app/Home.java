@@ -19,6 +19,5 @@ public class Home extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigatin_view);
         NavController navController = Navigation.findNavController(this,  R.id.nav_fragment);
         NavigationUI.setupWithNavController(bottomNavigationView, navController);
-//        AppBarConfiguration appBarConfiguration=AppBarConfiguration(setOf(R.id.homeFragment,R.id.profileFragent,R.id.settingFragment));
     }
 }

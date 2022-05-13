@@ -7,23 +7,23 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.workout_app.Views.fragnents.HomeFragment"
+        android:name="com.example.workout_app.Views.Fragnents.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/profileFragnent"
-        android:name="com.example.workout_app.Views.fragnents.ProfileFragment"
+        android:name="com.example.workout_app.Views.Fragnents.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/exercisesFragment"
-        android:name="com.example.workout_app.Views.fragnents.ExercisesFragment"
+        android:name="com.example.workout_app.Views.Fragnents.ExercisesFragment"
         android:label="fragment_exercise"
         tools:layout="@layout/fragment_exercises" />
     <fragment
-        android:id="@+id/mealsFragment"
-        android:name="com.example.workout_app.Views.fragnents.MealsFragment"
-        android:label="fragment_meals"
-        tools:layout="@layout/fragment_meals" />
+        android:id="@+id/dishFragment"
+        android:name="com.example.workout_app.Views.Fragnents.DishFragment"
+        android:label="fragment_dish"
+        tools:layout="@layout/fragment_dish" />
 
 </navigation>
