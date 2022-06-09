@@ -102,23 +102,25 @@ public class UserRegistration extends AppCompatActivity implements View.OnClickL
 
     //make sure you uninstall the app before run it again after add new dependencies
     private void AddUserToStore() {
-        user.put("userId", mAuth.getCurrentUser().getUid());
+//        user.put("userId", mAuth.getCurrentUser().getUid());
         user.put("fullName", editTextFullName.getText().toString());
         user.put("email", editTextEmail.getText().toString());
         user.put("phoneNumber", editTextPhoneNumber.getText().toString());
-        db.collection("users")
-                .add(user)
-                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                    @Override
-                    public void onSuccess(DocumentReference documentReference) {
-//                        Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
-                    }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-//                        Log.w(TAG, "Error adding document", e);
-                    }
-                });
+        user.put("FavoriteFood","");
+        db.collection("user").document(mAuth.getCurrentUser().getUid()).set(user);
+//        db.collection("user")
+//                .add(user)
+//                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+//                    @Override
+//                    public void onSuccess(DocumentReference documentReference) {
+////                        Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
+//                    }
+//                })
+//                .addOnFailureListener(new OnFailureListener() {
+//                    @Override
+//                    public void onFailure(@NonNull Exception e) {
+////                        Log.w(TAG, "Error adding document", e);
+//                    }
+//                });
     }
 }

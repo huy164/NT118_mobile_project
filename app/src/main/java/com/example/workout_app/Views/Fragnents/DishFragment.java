@@ -15,10 +15,15 @@ import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.view.animation.LayoutAnimationController;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.workout_app.Adapters.DishAdapter;
 import com.example.workout_app.Interface.RecyclerViewClickInterface;
 import com.example.workout_app.Models.Dish;
 import com.example.workout_app.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 
@@ -32,6 +37,8 @@ public class DishFragment extends Fragment implements RecyclerViewClickInterface
     private TextView et_require_searching;
     private FirebaseFirestore db;
     private List<Dish> list = new ArrayList<>();
+    private FirebaseAuth mAuth;
+
 
     public DishFragment() {
         // Required empty public constructor
@@ -42,6 +49,7 @@ public class DishFragment extends Fragment implements RecyclerViewClickInterface
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mAuth = FirebaseAuth.getInstance();
     }
 
 
@@ -107,12 +115,10 @@ public class DishFragment extends Fragment implements RecyclerViewClickInterface
 
     @Override
     public void onLongItemClick(int position) {
-//        String FoodID = list.get(position).getId();
-//        String UserID = FirebaseAuth.getInstance().getUid();
-//
-//        DocumentReference docRef = db.collection("user").document(UserID);
-//        docRef.update("favoritefood", FieldValue.arrayUnion(FoodID));
-//
-//        Toast.makeText(getContext(), "Đã thêm vào danh sách yêu thích", Toast.LENGTH_SHORT).show();
+        String FoodID = list.get(position).getId();
+        String UserID = FirebaseAuth.getInstance().getUid();
+        DocumentReference docRef = db.collection("user").document(mAuth.getCurrentUser().getUid().toString());
+        docRef.update("FavoriteFood", FieldValue.arrayUnion(FoodID));
+        Toast.makeText(getContext(), "Đã thêm vào danh sách yêu thích", Toast.LENGTH_SHORT).show();
     }
 }
