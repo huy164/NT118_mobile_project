@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/exercises_item.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_exercises.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />

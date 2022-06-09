@@ -119,6 +119,6 @@ public class DishFragment extends Fragment implements RecyclerViewClickInterface
         String UserID = FirebaseAuth.getInstance().getUid();
         DocumentReference docRef = db.collection("user").document(mAuth.getCurrentUser().getUid().toString());
         docRef.update("FavoriteFood", FieldValue.arrayUnion(FoodID));
-        Toast.makeText(getContext(), "Đã thêm vào danh sách yêu thích", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "Đã thêm món ăn vào danh sách yêu thích", Toast.LENGTH_SHORT).show();
     }
 }
