@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.198" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_baseline_set_meal_24.xml" value="0.198" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.236" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_baseline_sports_handball_24.xml" value="0.198" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/activity_home.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/activity_login.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/activity_user_registration.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/dish_item.xml" value="0.2" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_dish.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_exercises.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_home.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.17708333333333334" />
+        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/news_home_item.xml" value="0.24547101449275363" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />
