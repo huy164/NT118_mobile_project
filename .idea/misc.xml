@@ -3,21 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable-v24/background_button.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable-xxhdpi/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable-xxhdpi/visible_eye.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/circle_border.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/ll_icon.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_user_registration.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/dialog_split.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/dish_item.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/exercises_item.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_exercises.xml" value="0.2" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_baseline_set_meal_24.xml" value="0.157" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_baseline_sports_handball_24.xml" value="0.157" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.157" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/activity_home.xml" value="0.14739583333333334" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/activity_login.xml" value="0.176" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/activity_user_registration.xml" value="0.14739583333333334" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/dish_item.xml" value="0.14739583333333334" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/exercises_item.xml" value="0.14739583333333334" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_dish.xml" value="0.14739583333333334" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_exercises.xml" value="0.14739583333333334" />
-        <entry key="..\:/Nam 3/mobile/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.14739583333333334" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_home.xml" value="0.14583333333333334" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_overview.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.5" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/statistics.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/stepsize.xml" value="0.16875" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml-v26/settings.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml/settings.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19" />
-        <entry key="app/src/main/res/layout/activity_calculate_heart_rate.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_calculate_heart_rate.xml" value="0.340625" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
@@ -27,7 +37,6 @@
         <entry key="app/src/main/res/layout/dish_item.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/fragment_dish.xml" value="0.28894927536231885" />
         <entry key="app/src/main/res/layout/fragment_exercises.xml" value="0.18177083333333333" />
-        <entry key="app/src/main/res/layout/fragment_heartrate.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_meals.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.35625" />

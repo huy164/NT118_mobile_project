@@ -14,6 +14,7 @@ import android.widget.Button;
 import com.example.workout_app.R;
 import com.example.workout_app.Views.CalculateHeartRate;
 import com.example.workout_app.Views.start_up_screens.UserRegistration;
+import com.example.workout_app.pedometer.PedometerMainActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -73,7 +74,7 @@ public class ProfileFragment extends  Fragment  {
             @Override
             public void onClick(View v)
             {
-                        startActivity(new Intent(v.getContext(), CalculateHeartRate.class));
+                        startActivity(new Intent(v.getContext(), PedometerMainActivity.class));
             }
         });
         return rootView;
