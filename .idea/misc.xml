@@ -12,7 +12,9 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/drawable/ll_icon.xml" value="0.1" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_calculate_heart_rate.xml" value="0.11510416666666666" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_show_detail_favorite_food.xml" value="0.11510416666666666" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_user_registration.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/dialog_split.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/dish_item.xml" value="0.1" />
@@ -20,7 +22,8 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_exercises.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_home.xml" value="0.14583333333333334" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_overview.xml" value="0.2" />
-        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.4439306358381503" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_person.xml" value="0.11510416666666666" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.16" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/statistics.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/stepsize.xml" value="0.16875" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
