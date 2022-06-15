@@ -28,6 +28,7 @@ public class ProfileFragment extends  Fragment  {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private Button btnCalHeartRate;
+    private  Button btncountsteps;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -69,12 +70,21 @@ public class ProfileFragment extends  Fragment  {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_profile, container, false);
         btnCalHeartRate = (Button)rootView.findViewById(R.id.btnCalHeartRate);
+        btncountsteps =(Button)rootView.findViewById(R.id.btncounting_steps);
         btnCalHeartRate.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                        startActivity(new Intent(v.getContext(), PedometerMainActivity.class));
+                        startActivity(new Intent(v.getContext(), CalculateHeartRate.class));
+            }
+        });
+        btncountsteps.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(v.getContext(), PedometerMainActivity.class));
             }
         });
         return rootView;

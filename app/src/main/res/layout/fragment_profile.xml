@@ -6,15 +6,24 @@
     tools:context=".Views.Fragnents.ProfileFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="profile" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnCalHeartRate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calculate Heart Rate" />
+        <Button
+            android:id="@+id/btnCalHeartRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Heart Rate" />
+
+        <Button
+            android:id="@+id/btncounting_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="counting steps" />
+
+    </LinearLayout>
 
 </FrameLayout>
