@@ -86,7 +86,7 @@
             />
         </activity>
         <activity
-            android:name=".Home"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Views.start_up_screens.UserRegistration"

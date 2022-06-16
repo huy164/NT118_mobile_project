@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.workout_app.Views.Fragnents.HomeFragment"
+        android:name="com.example.workout_app.Views.Fragnents.MeasureFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_measure" />
     <fragment
         android:id="@+id/profileFragnent"
         android:name="com.example.workout_app.Views.Fragnents.ProfileFragment"

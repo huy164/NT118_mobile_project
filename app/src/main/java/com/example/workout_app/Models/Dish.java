@@ -15,7 +15,7 @@ public class Dish {
         this.sourceUrl = sourceUrl;
     }
 
-    public Dish() {
+    public Dish(String title, String description, String imgUrl, String source) {
     }
 
     public String getId() {

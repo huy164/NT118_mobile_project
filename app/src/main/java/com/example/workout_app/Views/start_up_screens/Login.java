@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.workout_app.Home;
+import com.example.workout_app.MainActivity;
 import com.example.workout_app.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -69,7 +69,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(Login.this,"login  successfully",Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(Login.this, Home.class));
+                    startActivity(new Intent(Login.this, MainActivity.class));
                 }else{
                     Toast.makeText(Login.this,"login  failed",Toast.LENGTH_LONG).show();
                 }
