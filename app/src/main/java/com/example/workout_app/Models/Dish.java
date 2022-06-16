@@ -15,7 +15,12 @@ public class Dish {
         this.sourceUrl = sourceUrl;
     }
 
-    public Dish(String title, String description, String imgUrl, String source) {
+
+    public Dish(String title, String description, String thumnailUrl, String sourceUrl) {
+        this.title = title;
+        this.description = description;
+        this.thumnailUrl = thumnailUrl;
+        this.sourceUrl = sourceUrl;
     }
 
     public String getId() {

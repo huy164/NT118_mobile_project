@@ -11,10 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.workout_app.Adapters.DishAdapter;
+import com.example.workout_app.Adapters.FoodSuggestionAdapter;
 import com.example.workout_app.Models.Dish;
 //import com.example.workout_app.food.FoodSuggestionAdapter;
 //import com.example.workout_app.main_menu_screen.RecyclerViewClickInterface;
+import com.example.workout_app.Interface.RecyclerViewClickInterface;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FieldValue;
@@ -28,14 +29,14 @@ public class ShowDetailFavoriteFood extends AppCompatActivity implements Recycle
     private FirebaseFirestore db;
     private String currentID;
     private final String TAG = "detailfavorite";
-    private DishAdapter adapter;
+    private FoodSuggestionAdapter adapter;
     ArrayList<String> lsFoodID = new ArrayList<>();
     ArrayList<Dish> originList = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         setContentView(R.layout.activity_show_detail_favorite_food);
         currentID = FirebaseAuth.getInstance().getUid();
         rv_list_food = (RecyclerView)findViewById(R.id.rv_favorite_food_list);
@@ -50,7 +51,7 @@ public class ShowDetailFavoriteFood extends AppCompatActivity implements Recycle
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
                         for (QueryDocumentSnapshot document : task.getResult()) {
-                            if(currentID.equals(document.getString("id"))){
+                            if(currentID.equals(document.getId())){
                                 ArrayList<String> lstemp = (ArrayList<String>)document.get("FavoriteFood");
                                 if(lstemp.size() != 0){
                                     for(int i = lstemp.size() - 1; i >= 0; i--){
@@ -75,7 +76,7 @@ public class ShowDetailFavoriteFood extends AppCompatActivity implements Recycle
                     if (task.isSuccessful()) {
                         for (QueryDocumentSnapshot document : task.getResult()) {
                             for(String i : lsFoodID){
-                                if(i.equals(document.getString("id"))){
+                                if(i.equals(document.getId())){
                                     String Title = document.getString("title");
                                     String Description = document.getString("description");
                                     String ImgUrl = document.getString("thumnail_url");
@@ -90,7 +91,7 @@ public class ShowDetailFavoriteFood extends AppCompatActivity implements Recycle
                         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
                         rv_list_food.setLayoutManager(linearLayoutManager);
 
-                        adapter = new DishAdapter(ShowDetailFavoriteFood.this, originList, (com.example.workout_app.Interface.RecyclerViewClickInterface) this);
+                        adapter = new FoodSuggestionAdapter(ShowDetailFavoriteFood.this, originList, this);
                         rv_list_food.setAdapter(adapter);
 
                     } else {
@@ -111,7 +112,7 @@ public class ShowDetailFavoriteFood extends AppCompatActivity implements Recycle
         String UserID = FirebaseAuth.getInstance().getUid();
 
         DocumentReference docRef = db.collection("user").document(UserID);
-        docRef.update("favoritefood", FieldValue.arrayRemove(FoodID));
+        docRef.update("FavoriteFood", FieldValue.arrayRemove(FoodID));
 
         Toast.makeText(this, "Đã xóa khỏi danh sách yêu thích", Toast.LENGTH_SHORT).show();
 
