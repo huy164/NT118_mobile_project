@@ -18,6 +18,12 @@ public class Exercises {
         this.url = url;
     }
 
+    public Exercises(String name, String image, String url) {
+        this.name = name;
+        this.image = image;
+        this.url = url;
+    }
+
     public String getId() {
         return id;
     }

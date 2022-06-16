@@ -111,6 +111,7 @@
 
 
         <activity android:name=".ShowDetailFavoriteFood"/>
+        <activity android:name=".ShowDetailFavoriteExercises"/>
 
     </application>
 

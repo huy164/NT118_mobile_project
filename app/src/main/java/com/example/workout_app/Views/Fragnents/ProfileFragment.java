@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.workout_app.R;
+import com.example.workout_app.ShowDetailFavoriteExercises;
 import com.example.workout_app.ShowDetailFavoriteFood;
 import com.example.workout_app.Views.start_up_screens.Login;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -40,7 +41,7 @@ public class ProfileFragment extends  Fragment  {
     private ImageView Logout;
     private FirebaseAuth mAuth;
     private GoogleSignInClient mGoogleSignInClient;
-    private TextView About, showfood, uEmail, uName,uPhone ,Report;
+    private TextView About, showfood, uEmail, uName,uPhone ,showEx,Report;
     private FirebaseFirestore mStore;
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -99,6 +100,13 @@ public class ProfileFragment extends  Fragment  {
 //        });
 
 
+        showEx.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ShowDetailFavoriteExercises.class);
+                startActivity(intent);
+            }
+        });
 
         showfood.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -125,6 +133,7 @@ public class ProfileFragment extends  Fragment  {
         Logout = view.findViewById(R.id.Logout);
         About = view.findViewById(R.id.About);
         showfood = view.findViewById(R.id.tv_favorite_food);
+        showEx = view.findViewById(R.id.tv_favorite_ex);
         uEmail = view.findViewById(R.id.email);
         uName = view.findViewById(R.id.fullname);
         uPhone = view.findViewById(R.id.phoneNumber);
