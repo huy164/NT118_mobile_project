@@ -14,7 +14,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.workout_app.R;
+import com.example.workout_app.Views.start_up_screens.Login;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -135,25 +138,25 @@ public class ProfileFragment extends  Fragment  {
         }).addOnFailureListener(e -> Toast.makeText(view.getContext(), e.getMessage(), Toast.LENGTH_SHORT).show());
     }
 
-//    private void SignOut(View view) {
-//        GoogleCreateRequest();
-//        mAuth = FirebaseAuth.getInstance();
-//        Logout.setOnClickListener(v -> {
-//            mAuth.signOut();
-//            mGoogleSignInClient.revokeAccess();
-//            mGoogleSignInClient.signOut();
-//            startActivity(new Intent(v.getContext(), Login.class));
-//        });
-//    }
-//
-//    private void GoogleCreateRequest() {
-//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-//                .requestIdToken(getString(R.string.default_web_client_id))
-//                .requestEmail()
-//                .build();
-//
-//        mGoogleSignInClient = GoogleSignIn.getClient(Objects.requireNonNull(getActivity()).getApplicationContext(), gso);
-//    }
+    private void SignOut(View view) {
+        GoogleCreateRequest();
+        mAuth = FirebaseAuth.getInstance();
+        Logout.setOnClickListener(v -> {
+            mAuth.signOut();
+            mGoogleSignInClient.revokeAccess();
+            mGoogleSignInClient.signOut();
+            startActivity(new Intent(v.getContext(), Login.class));
+        });
+    }
+
+    private void GoogleCreateRequest() {
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+
+        mGoogleSignInClient = GoogleSignIn.getClient(Objects.requireNonNull(getActivity()).getApplicationContext(), gso);
+    }
 
 
 }
