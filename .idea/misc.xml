@@ -26,6 +26,25 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml-v26/settings.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml/settings.xml" value="0.2" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/activity_calculate_bmi.xml" value="0.264" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/activity_show_detail_favorite_food.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/activity_user_registration.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/dialog_split.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/dish_item.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/exercises_item.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/fragment_dish.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/fragment_exercises.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/fragment_heartrate.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/fragment_measure.xml" value="0.16" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/fragment_overview.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/records_heart_card.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/statistics.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/stepsize.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/layout/widgetconfig.xml" value="0.2346014492753623" />
+        <entry key="..\:/Nam 3/di dong/New folder/NT118_mobile_project/app/src/main/res/menu/bottom_nav.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_calculate_bmi.xml" value="0.3418217433888345" />
         <entry key="app/src/main/res/layout/activity_calculate_heart_rate.xml" value="0.340625" />

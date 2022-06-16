@@ -11,20 +11,50 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="@color/teal_700"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="104dp"
+                android:layout_height="87dp"
+                app:srcCompat="@drawable/ic_bmi" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="27dp"
+                android:text="Calculate body indexes"
+                android:textColor="@color/white"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="650dp">
 
 
             <TextView
                 android:id="@+id/outputBMR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="112dp"
+                android:layout_marginStart="104dp"
                 android:layout_marginTop="228dp"
-                android:text="calculating"
+                android:text="Calculating"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
                 app:layout_constraintStart_toEndOf="@+id/textView10"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -32,9 +62,11 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="228dp"
                 android:text="BMR"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -42,8 +74,8 @@
                 android:id="@+id/inputWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="72dp"
-                android:layout_marginTop="44dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="32dp"
                 android:ems="10"
                 android:inputType="number"
                 app:layout_constraintStart_toEndOf="@+id/textView8"
@@ -54,8 +86,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="80dp"
-                android:text="weight"
+                android:layout_marginTop="56dp"
+                android:text="Weight"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -66,6 +100,8 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="108dp"
                 android:text="BMI"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -73,9 +109,11 @@
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:text="Category"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -85,7 +123,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="104dp"
                 android:layout_marginTop="108dp"
-                android:text="calculating"
+                android:text="Calculating"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView10"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -93,9 +133,11 @@
                 android:id="@+id/outputStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="72dp"
+                android:layout_marginStart="68dp"
                 android:layout_marginTop="32dp"
-                android:text="categorizing"
+                android:text="Categorizing"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView15"
                 app:layout_constraintTop_toBottomOf="@+id/outputBMI" />
 
@@ -103,8 +145,8 @@
                 android:id="@+id/inputHeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="32dp"
                 android:ems="10"
                 android:inputType="number"
                 app:layout_constraintStart_toEndOf="@+id/textView7"
@@ -115,8 +157,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="88dp"
-                android:text="height"
+                android:layout_marginTop="56dp"
+                android:text="Height"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -124,8 +168,8 @@
                 android:id="@+id/inputAge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="64dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="40dp"
                 android:ems="10"
                 android:inputType="number"
                 app:layout_constraintStart_toEndOf="@+id/textView6"
@@ -137,7 +181,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="96dp"
-                android:text="age"
+                android:text="Age"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -147,33 +193,35 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="56dp"
-                android:text="gender"
+                android:text="Gender"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
 
             <Button
                 android:id="@+id/btnCalBMI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="164dp"
-                android:layout_marginTop="36dp"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="32dp"
                 android:text="Calculate BMI"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/inputWeight" />
-
 
             <RadioGroup
                 android:id="@+id/radio"
                 android:layout_width="190dp"
                 android:layout_height="96dp"
-                android:layout_marginStart="56dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toEndOf="@+id/textView17"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
                     android:id="@+id/radioMale"
-                    android:layout_width="139dp"
+                    android:layout_width="148dp"
                     android:layout_height="wrap_content"
                     android:checked="true"
                     android:text="Male" />

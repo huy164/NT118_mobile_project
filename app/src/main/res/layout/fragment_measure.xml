@@ -13,18 +13,49 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:ignore="ExtraText">
+            android:layout_height="118dp"
+            android:background="@color/teal_700"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Advanced functionality"
+                android:textAlignment="center"
+                android:textColor="@color/color1"
+                android:textIsSelectable="false"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_step"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="164dp" />
 
             <Button
                 android:id="@+id/btnCountStep"
-                android:layout_width="334dp"
+                android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:layout_marginTop="136dp"
-                android:hint="count steps"
-                android:textColorHint="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="0dp"
+                android:hint="Count steps"
+                android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -33,13 +64,30 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="MissingConstraints" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_heart"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="360dp" />
+
             <Button
                 android:id="@+id/btnCalHeartRate"
-                android:layout_width="334dp"
+                android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:layout_marginTop="28dp"
-                android:hint="compute HeartRate"
-                android:textColorHint="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="30dp"
+                android:hint="Compute HeartRate"
+                android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -47,14 +95,30 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnCountStep"
                 tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_bmi"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="536dp" />
 
             <Button
                 android:id="@+id/btnCalBMI"
-                android:layout_width="334dp"
+                android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:layout_marginTop="28dp"
-                android:hint="calculate body indexes"
-                android:textColorHint="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="30dp"
+                android:hint="Calculate body indexes"
+                android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -62,9 +126,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnCalHeartRate"
                 tools:ignore="MissingConstraints" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
 
 
     </LinearLayout>
