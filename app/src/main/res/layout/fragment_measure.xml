@@ -29,7 +29,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/color1"
                 android:textIsSelectable="false"
-                android:textSize="35dp"
+                android:textSize="28dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
