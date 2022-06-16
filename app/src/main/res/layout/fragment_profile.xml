@@ -33,8 +33,8 @@
 
             <EditText
                 android:id="@+id/email"
-                android:layout_width="323dp"
-                android:layout_height="48dp"
+                android:layout_width="321dp"
+                android:layout_height="43dp"
                 android:autofillHints="@null"
                 android:drawablePadding="10dp"
                 android:hint="Email"
@@ -55,10 +55,16 @@
 
             <EditText
                 android:id="@+id/fullname"
+<<<<<<< Updated upstream
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
 
+=======
+                android:layout_width="322dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="24dp"
+>>>>>>> Stashed changes
                 android:autofillHints="@null"
                 android:backgroundTint="@null"
                 android:drawablePadding="10dp"
@@ -80,8 +86,8 @@
 
             <EditText
                 android:id="@+id/phoneNumber"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_width="324dp"
+                android:layout_height="43dp"
                 android:layout_marginTop="16dp"
                 android:autofillHints="@null"
                 android:backgroundTint="@null"
@@ -127,42 +133,94 @@
 
             <TextView
                 android:id="@+id/tv_favorite_food"
+<<<<<<< Updated upstream
                 android:layout_width="360dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="25dp"
+=======
+                android:layout_width="363dp"
+                android:layout_height="61dp"
+>>>>>>> Stashed changes
                 android:background="@drawable/shape_et"
                 android:drawablePadding="16dp"
                 android:padding="10dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:text="My Favorite Food"
+                android:text="My Favorite Foods"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:drawableStartCompat="@drawable/ic_person_listfood"
                 app:layout_constraintHeight_percent=".5"
+<<<<<<< Updated upstream
+=======
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.548"
+                app:layout_constraintWidth_percent=".8" />
+
+            <TextView
+                android:id="@+id/tv_favorite_ex"
+                android:layout_width="363dp"
+                android:layout_height="71dp"
+                android:background="@drawable/shape_et"
+                android:drawablePadding="16dp"
+                android:padding="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="My Favorite Exercises"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_person_listfood"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent=".5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.736"
+>>>>>>> Stashed changes
                 app:layout_constraintWidth_percent=".8" />
 
             <TextView
                 android:id="@+id/About"
+<<<<<<< Updated upstream
                 android:layout_width="360dp"
                 android:layout_height="60dp"
                 android:layout_marginBottom="168dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="25dp"
+=======
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="68dp"
+>>>>>>> Stashed changes
                 android:background="@drawable/shape_et"
                 android:checked="true"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
-                android:text="Contact the author by phone"
+                android:text="Contact the author"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:drawableStartCompat="@drawable/ic_emer"
+<<<<<<< Updated upstream
                 tools:ignore="MissingConstraints" />
+=======
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.907"
+                tools:ignore="MissingConstraints" />
+
+>>>>>>> Stashed changes
 
         </LinearLayout>
 
