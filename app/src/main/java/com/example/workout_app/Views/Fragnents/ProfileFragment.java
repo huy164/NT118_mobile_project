@@ -6,24 +6,15 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.workout_app.R;
-import com.example.workout_app.ShowDetailFavoriteFood;
-import com.example.workout_app.Views.CalculateHeartRate;
-import com.example.workout_app.Views.start_up_screens.Login;
-import com.example.workout_app.Views.start_up_screens.UserRegistration;
-import com.example.workout_app.pedometer.PedometerMainActivity;
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -42,7 +33,6 @@ public class ProfileFragment extends  Fragment  {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 //    private Button btnCalHeartRate;
-//    private  Button btncountsteps;
     private ImageView Logout;
     private FirebaseAuth mAuth;
     private GoogleSignInClient mGoogleSignInClient;
@@ -101,15 +91,6 @@ public class ProfileFragment extends  Fragment  {
 //            public void onClick(View v)
 //            {
 //                        startActivity(new Intent(v.getContext(), CalculateHeartRate.class));
-//            }
-//        });
-//
-//        btncountsteps.setOnClickListener(new View.OnClickListener()
-//        {
-//            @Override
-//            public void onClick(View v)
-//            {
-//                startActivity(new Intent(v.getContext(), PedometerMainActivity.class));
 //            }
 //        });
 
