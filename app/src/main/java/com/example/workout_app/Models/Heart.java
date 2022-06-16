@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.Models;
+package com.example.workout_app.Models;
 
 
 public class Heart{

@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.HelperClasses;
+package com.example.workout_app.HelperClasses;
 
 public class Constants {
     public static final String START_FOREGROUND =  "start_foreground";

@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.Adapters;
+package com.example.workout_app.Adapters;
 //import android.support.annotation.Nullable;
 //import android.support.v4.app.Fragment;
 //import android.support.v4.app.FragmentManager;

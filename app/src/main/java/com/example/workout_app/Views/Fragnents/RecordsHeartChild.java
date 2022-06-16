@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.Fragments;
+package com.example.workout_app.Views.Fragnents;
 /*
 
 import android.content.Context;

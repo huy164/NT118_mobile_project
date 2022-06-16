@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.Fragments;
+package com.example.workout_app.Views.Fragnents;
 
 import android.annotation.SuppressLint;
 import android.app.Fragment;
@@ -25,7 +25,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import com.example.workout_app.R;
-import com.example.workout_app.heartrate.HelperClasses.ImageProcessing;
+import com.example.workout_app.HelperClasses.ImageProcessing;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

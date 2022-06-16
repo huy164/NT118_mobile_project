@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.workout_app.R;
-import com.example.workout_app.heartrate.HeartRateActivity;
+import com.example.workout_app.HeartRateActivity;
 import com.example.workout_app.pedometer.PedometerMainActivity;
 
 /**

@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.HelperClasses;
+package com.example.workout_app.HelperClasses;
 
 public abstract class ImageProcessing {
 

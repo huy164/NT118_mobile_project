@@ -1,4 +1,4 @@
-package com.example.workout_app.heartrate.Adapters;
+package com.example.workout_app.Adapters;
 
 import android.content.Context;
 import android.util.Log;
@@ -11,8 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.workout_app.R;
-import com.example.workout_app.heartrate.Models.Heart;
-import com.example.workout_app.heartrate.Models.Heart;
+import com.example.workout_app.Models.Heart;
 
 import java.util.ArrayList;
 

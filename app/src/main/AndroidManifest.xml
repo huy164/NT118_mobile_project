@@ -95,7 +95,7 @@
             android:name=".pedometer.PedometerMainActivity"
             android:exported="true" />
         <activity
-            android:name=".heartrate.HeartRateActivity"
+            android:name=".HeartRateActivity"
             android:exported="true" />
     </application>
 
