@@ -32,7 +32,7 @@ public class CalculateBMI extends AppCompatActivity implements View.OnClickListe
         btnCalBMI.setOnClickListener(this);
         inputHeight = findViewById(R.id.inputHeight);
         inputWeight = findViewById(R.id.inputWeight);
-        inputWeight = findViewById(R.id.inputAge);
+        inputAge = findViewById(R.id.inputAge);
         outputBMI=findViewById(R.id.outputBMI);
         outputBMR=findViewById(R.id.outputBMR);
         outputStatus=findViewById(R.id.outputStatus);
@@ -44,15 +44,15 @@ public class CalculateBMI extends AppCompatActivity implements View.OnClickListe
         double bmi = 1.0* weight / (height * height);
         return bmi;
     }
-    protected double calculateBMR(double height, double weight,int age) {
-        height=height/100;
-        double bmi = 1.0* weight / (height * height);
-        return bmi;
+    protected double calculateBMR(double height, double weight,double age) {
+        double bmr = 13.379* weight  +4.799*height- 5.677*age+88.362;
+        return bmr;
     }
 
     protected void ShowResult(){
         double height = Double.parseDouble(inputHeight.getText().toString());
         double weight = Double.parseDouble(inputWeight.getText().toString());
+        double age = Double.parseDouble(inputAge.getText().toString());
         double bmi=calculateBMI(height,weight);
         DecimalFormat df = new DecimalFormat("0.00");
         outputBMI.setText(df.format(bmi));
@@ -62,6 +62,8 @@ public class CalculateBMI extends AppCompatActivity implements View.OnClickListe
         if(bmi>=25&&bmi<30)  status="Overweight";
         if(bmi>=30)  status="Obesity";
         outputStatus.setText(status);
+        double bmr=calculateBMR(height,weight,age);
+        outputBMR.setText(df.format(bmr)+" calories");
     }
     @Override
     public void onClick(View v) {
