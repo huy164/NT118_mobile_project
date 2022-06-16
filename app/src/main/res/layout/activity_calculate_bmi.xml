@@ -42,7 +42,7 @@
                 android:id="@+id/inputWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="72dp"
                 android:layout_marginTop="44dp"
                 android:ems="10"
                 android:inputType="number"
@@ -103,8 +103,8 @@
                 android:id="@+id/inputHeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="52dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="60dp"
                 android:ems="10"
                 android:inputType="number"
                 app:layout_constraintStart_toEndOf="@+id/textView7"
@@ -124,20 +124,30 @@
                 android:id="@+id/inputAge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="72dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="48dp"
                 android:ems="10"
                 android:inputType="number"
                 app:layout_constraintStart_toEndOf="@+id/textView6"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/radio" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="96dp"
                 android:text="age"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="56dp"
+                android:text="gender"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -150,6 +160,31 @@
                 android:text="Calculate BMI"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/inputWeight" />
+
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="190dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toEndOf="@+id/textView17"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="139dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+            </RadioGroup>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
