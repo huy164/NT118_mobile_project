@@ -27,6 +27,7 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml-v26/settings.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml/settings.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_calculate_bmi.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_calculate_heart_rate.xml" value="0.340625" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />

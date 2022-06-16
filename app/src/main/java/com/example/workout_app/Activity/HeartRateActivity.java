@@ -1,4 +1,4 @@
-package com.example.workout_app;
+package com.example.workout_app.Activity;
 
 import android.app.Activity;
 import android.app.Fragment;
