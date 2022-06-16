@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.workout_app.R;
+import com.example.workout_app.ShowDetailFavoriteFood;
 import com.example.workout_app.Views.start_up_screens.Login;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -86,7 +87,7 @@ public class ProfileFragment extends  Fragment  {
 
         init(rootView);
 //        animation();
-//        SignOut(rootView);
+        SignOut(rootView);
 
 //        btnCalHeartRate.setOnClickListener(new View.OnClickListener()
 //        {
@@ -99,13 +100,13 @@ public class ProfileFragment extends  Fragment  {
 
 
 
-//        showfood.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getActivity(), ShowDetailFavoriteFood.class);
-//                startActivity(intent);
-//            }
-//        });
+        showfood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ShowDetailFavoriteFood.class);
+                startActivity(intent);
+            }
+        });
 
         About.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -123,11 +124,11 @@ public class ProfileFragment extends  Fragment  {
     private void init(View view) {
         Logout = view.findViewById(R.id.Logout);
         About = view.findViewById(R.id.About);
-//        showfood = view.findViewById(R.id.tv_favorite_food);
+        showfood = view.findViewById(R.id.tv_favorite_food);
         uEmail = view.findViewById(R.id.email);
         uName = view.findViewById(R.id.fullname);
         uPhone = view.findViewById(R.id.phoneNumber);
-        Report = view.findViewById(R.id.Report);
+        //Report = view.findViewById(R.id.Report);
         mStore = FirebaseFirestore.getInstance();
 
         DocumentReference docRef = mStore.collection("user").document(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid());

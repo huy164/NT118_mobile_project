@@ -107,6 +107,11 @@
         <activity
             android:name=".Activity.CalculateBMI"
             android:exported="true" />
+
+
+
+        <activity android:name=".ShowDetailFavoriteFood"/>
+
     </application>
 
 </manifest>

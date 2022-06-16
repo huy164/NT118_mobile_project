@@ -22,7 +22,7 @@
                 android:id="@+id/Logout"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:layout_marginEnd="24dp"
+                android:layout_marginEnd="12dp"
                 android:background="@drawable/ic_logout"
                 android:backgroundTint="@null"
                 android:contentDescription="@null"
@@ -33,7 +33,7 @@
             <EditText
                 android:id="@+id/email"
                 android:layout_width="323dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:autofillHints="@null"
                 android:drawablePadding="10dp"
                 android:hint="Email"
@@ -45,10 +45,12 @@
                 android:paddingBottom="10dp"
                 android:textColorHint="@color/black"
                 app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Logout"
                 app:layout_constraintWidth_percent=".8"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="16dp" />
+                tools:ignore="MissingConstraints" />
 
             <EditText
                 android:id="@+id/fullname"
@@ -61,13 +63,14 @@
                 android:hint="Fullname"
                 android:inputType="text"
                 android:maxLines="1"
+                android:minHeight="48dp"
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="10dp"
                 android:paddingBottom="10dp"
                 android:textColorHint="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.121"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/email"
                 app:layout_constraintWidth_percent="0.8" />
@@ -83,92 +86,75 @@
                 android:hint="Phone number"
                 android:inputType="text"
                 android:maxLines="1"
+                android:minHeight="48dp"
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="10dp"
                 android:paddingBottom="10dp"
                 android:textColorHint="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.195"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/fullname"
                 app:layout_constraintWidth_percent="0.8" />
 
-            <!--            <TextView-->
-<!--                android:id="@+id/tv_favorite_food"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/shape_et"-->
-<!--                android:drawablePadding="16dp"-->
-<!--                android:padding="10dp"-->
-<!--                android:paddingStart="16dp"-->
-<!--                android:paddingEnd="16dp"-->
-<!--                android:text="Món bạn ăn yêu thích"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="24sp"-->
-<!--                android:textStyle="bold"-->
-<!--                app:drawableStartCompat="@drawable/ic_person_listfood"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintHeight_percent=".5"-->
-<!--                app:layout_constraintHorizontal_bias="0.463"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.787"-->
-<!--                app:layout_constraintWidth_percent=".8" />-->
+            <TextView
+                android:id="@+id/tv_favorite_food"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_et"
+                android:drawablePadding="16dp"
+                android:padding="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="My Favorite Food"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_person_listfood"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent=".5"
+                app:layout_constraintHorizontal_bias="0.463"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.519"
+                app:layout_constraintWidth_percent=".8" />
 
             <Button
                 android:id="@+id/userRegister"
                 android:layout_width="334dp"
                 android:layout_height="56dp"
+                android:layout_marginTop="12dp"
                 android:hint="Update"
                 android:textColorHint="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.207"
+                app:layout_constraintHorizontal_bias="0.532"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/Report"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="244dp"
-                android:background="@drawable/shape_et"
-                android:checked="true"
-                android:drawablePadding="16dp"
-                android:padding="10dp"
-                android:text="Gửi lời góp ý cho hệ thống"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:drawableStartCompat="@drawable/ic_report"
-                app:layout_constraintBottom_toBottomOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="16dp" />
-
-            <TextView
                 android:id="@+id/About"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginBottom="168dp"
                 android:background="@drawable/shape_et"
                 android:checked="true"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
-                android:text="Liên hệ đường dây nóng"
+                android:text="Contact the author by phone"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:drawableStartCompat="@drawable/ic_emer"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/Report"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/Report"
-                app:layout_constraintTop_toBottomOf="@+id/Report"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="26dp" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
