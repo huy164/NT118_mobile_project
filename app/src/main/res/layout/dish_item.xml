@@ -31,17 +31,16 @@
                 <!-- Title, secondary and supporting text -->
                 <TextView
                     android:id="@+id/tv_food_name"
-                    android:layout_width="match_parent"
+                    android:layout_width="161dp"
                     android:layout_height="wrap_content"
-                    android:text="title"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
-                    android:gravity="center"/>
+                    android:text="title"/>
 
             </LinearLayout>
 
             <!-- Buttons -->
-           <!-- <LinearLayout
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -61,7 +60,7 @@
                     android:text="Like"
                     style="?attr/borderlessButtonStyle"
                     />
-            </LinearLayout>-->
+            </LinearLayout>
 
         </LinearLayout>
 

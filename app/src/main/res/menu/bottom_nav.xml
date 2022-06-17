@@ -5,13 +5,18 @@
     <item android:title="Home"
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_baseline_home_24"/>
-    <item android:title="Profile"
-        android:id="@+id/profileFragnent"
-        android:icon="@drawable/ic_baseline_person_24"/>
+
     <item android:title="Exercises"
         android:id="@+id/exercisesFragment"
         android:icon="@drawable/ic_baseline_sports_handball_24"/>
+    <item android:title="Route"
+        android:id="@+id/routeFragment"
+        android:icon="@drawable/distance"/>
     <item android:title="Dish"
         android:id="@+id/dishFragment"
         android:icon="@drawable/ic_baseline_set_meal_24"/>
+
+    <item android:title="Profile"
+        android:id="@+id/profileFragnent"
+        android:icon="@drawable/ic_baseline_person_24"/>
 </menu>

@@ -6,32 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".Views.Fragnents.DishFragment">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="List Foods"
+        android:textColor="@color/color1"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_food" />
 
-        >
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="List Foods"
-            android:background="@color/teal_700"
-            android:textColor="@color/color1"
-            android:textSize="28dp"
-            android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_food"
-            />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_weight="12" />
-    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="12" />
 
 </FrameLayout>

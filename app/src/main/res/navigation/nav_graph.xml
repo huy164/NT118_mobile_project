@@ -25,5 +25,10 @@
         android:name="com.example.workout_app.Views.Fragnents.DishFragment"
         android:label="fragment_dish"
         tools:layout="@layout/fragment_dish" />
+    <fragment
+        android:id="@+id/routeFragment"
+        android:name="com.example.workout_app.Views.Fragnents.RouteFragment"
+        android:label="fragment_route"
+        tools:layout="@layout/fragment_route" />
 
 </navigation>
