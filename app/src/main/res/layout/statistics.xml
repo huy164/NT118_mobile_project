@@ -10,12 +10,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
         android:text="@string/record" />
 
     <TextView
@@ -23,12 +26,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
         android:text="@string/total_last_7_days" />
 
     <TextView
@@ -36,12 +42,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
         android:text="@string/average_last_7_days" />
 
     <TextView
@@ -49,12 +58,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
         android:text="@string/total_this_month" />
 
     <TextView
@@ -62,12 +74,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
         android:text="@string/average_this_month" />
 
     <View
