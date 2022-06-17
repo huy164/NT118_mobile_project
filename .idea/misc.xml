@@ -31,11 +31,17 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_measure.xml" value="0.1578125" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_overview.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/fragment_route.xml" value="0.184375" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/records_heart_card.xml" value="0.33" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/statistics.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/stepsize.xml" value="0.16875" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/widget.xml" value="0.1578125" />
+<<<<<<< Updated upstream
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/widgetconfig.xml" value="0.1578125" />
+=======
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/widgetconfig.xml" value="0.33" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/menu/bottom_nav.xml" value="0.184375" />
+>>>>>>> Stashed changes
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml-v26/settings.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml/settings.xml" value="0.2" />

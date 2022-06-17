@@ -93,7 +93,7 @@ public class ShowDetailFavoriteExercises extends AppCompatActivity implements Re
                         rv_list_ex.setAdapter(adapter);
 
                     } else {
-                        Log.d(TAG, "getFoodData: ", task.getException());
+                        Log.d(TAG, "getExeciseData: ", task.getException());
                     }
                 });
     }
