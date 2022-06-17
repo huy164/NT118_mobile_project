@@ -49,6 +49,7 @@
                     android:maxLines="1"
                     android:textColor="@color/black"
                     android:textSize="20sp"
+                    android:gravity="center"
                     android:textStyle="bold"
                     android:text="Title"/>
 

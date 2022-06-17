@@ -30,16 +30,17 @@
                 <!-- Title, secondary and supporting text -->
                 <TextView
                     android:id="@+id/tv_ex_name"
-                    android:layout_width="161dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
+                    android:text="name"
+                    android:textSize="20dp"
                     android:textStyle="bold"
-                    android:text="name"/>
+                    android:gravity="center" />
 
             </LinearLayout>
 
             <!-- Buttons -->
-            <LinearLayout
+            <!--<LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -61,7 +62,7 @@
                     android:text="Like"
                     style="?attr/borderlessButtonStyle"
                     />
-            </LinearLayout>
+            </LinearLayout>-->
 
         </LinearLayout>
 

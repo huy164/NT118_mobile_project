@@ -22,15 +22,18 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_marginTop="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
                 android:text="Advanced functionality"
                 android:textAlignment="center"
                 android:textColor="@color/color1"
                 android:textIsSelectable="false"
                 android:textSize="28dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+
+                app:drawableStartCompat="@drawable/heartbeat" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,6 +61,7 @@
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.493"
                 app:layout_constraintStart_toStartOf="parent"
@@ -90,6 +94,8 @@
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
+
+                android:gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.493"
                 app:layout_constraintStart_toStartOf="parent"
@@ -121,6 +127,8 @@
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
+
+                android:gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.493"
                 app:layout_constraintStart_toStartOf="parent"

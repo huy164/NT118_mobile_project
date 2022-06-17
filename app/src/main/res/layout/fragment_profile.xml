@@ -8,191 +8,226 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="674dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_favorite_food"
-
-            android:layout_width="358dp"
-            android:layout_height="59dp"
-
-            android:background="@drawable/shape_et"
-            android:drawablePadding="16dp"
-            android:padding="10dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:text="My Favorite Foods"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_person_listfood"
-
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHeight_percent=".5"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.6"
-            app:layout_constraintWidth_percent=".8" />
-
-        <TextView
-            android:id="@+id/About"
-
-            android:layout_width="348dp"
-            android:layout_height="52dp"
-
-            android:background="@drawable/shape_et"
-            android:checked="true"
-            android:drawablePadding="10dp"
-            android:padding="10dp"
-            android:text="Contact the author"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_emer"
-
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_favorite_ex"
-            app:layout_constraintVertical_bias="0.933"
-            tools:ignore="MissingConstraints" />
-
-        <TextView
-            android:id="@+id/tv_favorite_ex"
-            android:layout_width="352dp"
-            android:layout_height="60dp"
-            android:background="@drawable/shape_et"
-            android:drawablePadding="16dp"
-            android:padding="10dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:text="My Favorite Exercises"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_person_listfood"
-
-            app:layout_constraintBottom_toTopOf="@+id/About"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHeight_percent=".5"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_favorite_food"
-            app:layout_constraintVertical_bias="0.774"
-            app:layout_constraintWidth_percent=".8" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="338dp"
-        android:background="@color/teal_700">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:background="@color/teal_700">
 
 
-        <ImageView
-            android:id="@+id/Logout"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginEnd="12dp"
-            android:background="@drawable/ic_logout"
-            android:backgroundTint="@null"
-            android:contentDescription="@null"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="16dp" />
+            <ImageView
+                android:id="@+id/Logout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/ic_logout"
+                android:backgroundTint="@null"
+                android:contentDescription="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="16dp" />
 
-        <EditText
-            android:id="@+id/email"
-            android:layout_width="321dp"
-            android:layout_height="43dp"
-            android:autofillHints="@null"
-            android:drawablePadding="10dp"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:maxLines="1"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="@color/white"
-            android:textSize="14dp"
-            app:backgroundTint="@null"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Logout"
-            app:layout_constraintWidth_percent=".8"
-            tools:ignore="MissingConstraints" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="321dp"
+                android:layout_height="43dp"
+                android:autofillHints="@null"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/color1"
+                android:textSize="18dp"
+                app:backgroundTint="@null"
+                app:drawableStartCompat="@drawable/ic_email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Logout"
+                app:layout_constraintWidth_percent=".8"
+                tools:ignore="MissingConstraints" />
 
-        <EditText
-            android:id="@+id/fullname"
-            android:layout_width="322dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="16dp"
-            android:autofillHints="@null"
-            android:backgroundTint="@null"
-            android:drawablePadding="10dp"
-            android:hint="Fullname"
-            android:inputType="text"
-            android:maxLines="1"
-            android:minHeight="48dp"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="@color/white"
-            android:textSize="14dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/email"
-            app:layout_constraintWidth_percent="0.8" />
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="322dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:autofillHints="@null"
+                android:backgroundTint="@null"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:hint="Fullname"
+                android:inputType="text"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/white"
+                android:textSize="18dp"
+                app:drawableStartCompat="@drawable/ic_user"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email"
+                app:layout_constraintWidth_percent="0.8" />
 
-        <EditText
-            android:id="@+id/phoneNumber"
-            android:layout_width="321dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="16dp"
-            android:autofillHints="@null"
-            android:backgroundTint="@null"
-            android:drawablePadding="10dp"
-            android:hint="Phone number"
-            android:inputType="text"
-            android:maxLines="1"
-            android:minHeight="48dp"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="@color/white"
-            android:textSize="14dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fullname"
-            app:layout_constraintWidth_percent="0.8" />
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="321dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:autofillHints="@null"
+                android:backgroundTint="@null"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:hint="Phone number"
+                android:inputType="text"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/white"
+                android:textSize="18dp"
+                app:drawableStartCompat="@drawable/ic_phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fullname"
+                app:layout_constraintWidth_percent="0.8" />
 
-        <Button
-            android:id="@+id/userRegister"
-            android:layout_width="334dp"
-            android:layout_height="56dp"
-            android:layout_marginTop="28dp"
-            android:hint="Update"
-            android:textColorHint="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.532"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
-            tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/userRegister"
+                android:layout_width="334dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="28dp"
+                android:gravity="center"
+                android:hint="Update"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.532"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="241dp"
+                android:layout_height="38dp"
+                android:gravity="center"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="5dp"
+                app:drawableStartCompat="@drawable/ic_user"/>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="392dp">
+
+            <TextView
+                android:id="@+id/tv_favorite_food"
+
+                android:layout_width="358dp"
+                android:layout_height="59dp"
+
+                android:background="@color/teal_700"
+                android:drawablePadding="16dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="My Favorite Foods"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_person_listfood"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent=".5"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.216"
+                app:layout_constraintWidth_percent=".8" />
+
+            <TextView
+                android:id="@+id/About"
+
+                android:layout_width="348dp"
+                android:layout_height="52dp"
+
+                android:background="@color/teal_700"
+                android:checked="true"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Contact the author"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_emer"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_favorite_ex"
+                app:layout_constraintVertical_bias="0.933"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tv_favorite_ex"
+                android:layout_width="352dp"
+                android:layout_height="60dp"
+                android:background="@color/teal_700"
+                android:drawablePadding="16dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="My Favorite Exercises"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_person_listfood"
+
+                app:layout_constraintBottom_toTopOf="@+id/About"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent=".5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_favorite_food"
+                app:layout_constraintVertical_bias="0.774"
+                app:layout_constraintWidth_percent=".8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
 
 </FrameLayout>

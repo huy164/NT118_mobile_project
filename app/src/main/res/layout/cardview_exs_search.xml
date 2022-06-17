@@ -50,6 +50,8 @@
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
+
+                    android:gravity="center"
                     android:text="Name"/>
 
                 <View

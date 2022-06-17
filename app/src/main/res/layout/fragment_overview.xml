@@ -81,14 +81,13 @@
             android:text="@string/total"/>
     </LinearLayout>
 
-    <org.eazegraph.lib.charts.BarChart
-        xmlns:eaze="http://schemas.android.com/apk/res-auto"
+    <org.eazegraph.lib.charts.BarChart xmlns:eaze="http://schemas.android.com/apk/res-auto"
         android:id="@+id/bargraph"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_below="@+id/averageandtotaltext"
         android:layout_marginTop="50dp"
         eaze:egLegendHeight="35dp"
-        eaze:egShowValues="true"/>
+        eaze:egShowValues="true" />
 
 </RelativeLayout>
