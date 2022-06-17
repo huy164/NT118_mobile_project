@@ -19,7 +19,6 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -31,9 +30,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/GoogleMapKey" />
+
         <receiver
             android:name=".pedometer.AppUpdatedReceiver"
             android:exported="true">
@@ -64,7 +68,7 @@
 
         <activity
             android:name=".pedometer.widget.WidgetConfig"
-            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"></activity>
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
 
         <receiver
             android:name=".pedometer.widget.Widget"
@@ -88,6 +92,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             />
@@ -107,12 +112,11 @@
         <activity
             android:name=".Activity.CalculateBMI"
             android:exported="true" />
-
-
-
-        <activity android:name=".ShowDetailFavoriteFood"/>
-        <activity android:name=".ShowDetailFavoriteExercises"/>
-
+        <activity
+            android:name=".Activity.ResetPassword"
+            android:exported="true" />
+        <activity android:name=".ShowDetailFavoriteFood" />
+        <activity android:name=".ShowDetailFavoriteExercises" />
     </application>
 
 </manifest>
