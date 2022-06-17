@@ -16,6 +16,7 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_login.xml" value="0.1578125" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_main.xml" value="0.19" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_reset_password.xml" value="0.184375" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_show_detail_favorite_exercises.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_show_detail_favorite_food.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/activity_user_registration.xml" value="0.1" />
@@ -35,7 +36,7 @@
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/statistics.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/stepsize.xml" value="0.16875" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/widget.xml" value="0.1578125" />
-        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/widgetconfig.xml" value="0.1578125" />
+        <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/layout/widgetconfig.xml" value="0.33" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml-v26/settings.xml" value="0.2" />
         <entry key="..\:/Mobile/NT118_mobile_project/app/src/main/res/xml/settings.xml" value="0.2" />
@@ -67,7 +68,6 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_user_registration.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/cardview_food.xml" value="0.33" />
         <entry key="app/src/main/res/layout/dish/dish_item.xml" value="0.19635416666666666" />
@@ -78,13 +78,12 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_meals.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/fragment_measure.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/fragment_overview.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_overview.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.29891304347826086" />
         <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/records_heart_card.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/stepsize.xml" value="0.35625" />
         <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.5" />
-        <entry key="app/src/main/res/xml/settings.xml" value="0.35625" />
       </map>
     </option>
   </component>
